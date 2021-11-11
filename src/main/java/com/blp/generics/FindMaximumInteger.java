@@ -1,6 +1,6 @@
 package com.blp.generics;
 
-public class FindMaximum {
+public class FindMaximumInteger {
 
     public static int getMaximum(Integer a, Integer b, Integer c) {
         Integer max = a;
