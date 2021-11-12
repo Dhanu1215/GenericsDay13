@@ -2,12 +2,12 @@ package com.blp.generics;
 
 public class FindMaximumFloat {
 
-    public static Float getMaximumFloat(Float af, Float bf, Float cf){
-        Float max = af;
-        if (bf.compareTo(max) > 0 && bf.compareTo(max) > 0)
-            max = bf;
-        else if (cf.compareTo(max) > 0)
-            max = cf;
+    public static Float getMaximumFloat(Float a, Float b, Float c){
+        Float max = a;
+        if (b.compareTo(max) > 0 && b.compareTo(max) > 0)
+            max = b;
+        else if (c.compareTo(max) > 0)
+            max = c;
         System.out.println(max);
         return max;
     }
